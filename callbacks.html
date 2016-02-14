@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <script src="callbacks.js"></script>
+    <script src="prototype.js"></script>
+</head>
+
+<body>
+    <p>Input</p>
+    <p>['Lars', 'Jan', 'Peter', 'Bo', 'Frederik']</p>
+    <div>
+        <button onClick='callbackFilter()'>Filter</button>
+        <button onClick='callbackMap()'>Map</button>
+    </div>
+    <div>
+        <button onClick='CustomFilter()'>MyFilter</button>
+        <button onClick='CustomMap()'>MyMap</button>
+    </div>
+    <div>
+        <button onClick='PrototypeCustomFilter()'>MyFilter Prototype</button>
+        <button onClick='PrototypeCustomMap()'>MyMap Prototype</button>
+    </div>
+    <div>
+        <button onClick='AddArrays()'>HandleNumArrays</button>
+    </div>
+
+    <p>Output</p>
+    <p id='result'></p>
+</body>
+
+</html>
