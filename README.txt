@@ -1,5 +1,7 @@
-Nodejs
+This is only part of the exercises.
 
+
+Still missing:
 
 This - Lecture 37
 IIFE - Lecture 44
